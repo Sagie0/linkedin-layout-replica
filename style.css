@@ -1,0 +1,147 @@
+* {
+    padding: 0px;
+    margin: 0PX;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f3f2ef;
+}
+
+.header {
+    display: flex;
+    background-color: #fff;
+    height: 50px;
+    justify-content: space-around;
+    
+}
+.header .main-header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    gap: 10px;
+}
+
+.header .main-header img {
+    height: 33px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+.header .main-header input {
+    height: 33px;
+    padding-left: 20px;
+    padding-right: 60px;
+    border-radius: 3px;
+    border: none;
+    background-color: #eef3f8;
+}
+
+#feeds {
+    padding: 25px 10%;
+    display: grid;
+    grid-template-columns: 5fr 12fr 7fr;
+    /* align-items: center;
+    justify-content: center; */
+}
+#feeds div {
+    padding: 20px 10px;
+    border-radius: 5px;
+    /* background-color: aquamarine; */
+    margin-bottom: 10px;
+}
+
+.column1 .column2 .column3 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1px;
+    /* background-color: aqua; */
+}
+
+.column1 .profile-card {
+    /* height: 50px; */
+    background-color: #fff;
+    color: #fff;
+    width: 200px;
+    height: 400px;
+}
+
+.column1 .groups-card{
+    width: 200px;
+    height: 150px;
+    background-color: #fff;
+    color: #fff;
+}
+.column2 .add-feeds {
+    width: 560px;
+    height: 150px;
+    background-color: #fff;
+    color: #fff;
+    position: relative;
+    right: -10px;
+}
+.column2 p {
+    opacity: 50%;
+    position: relative;
+    left: 10px;
+}
+.column2 .timeline {
+    width: 560px;
+    height: 650px;
+    background-color: #fff;
+    color: #fff;
+}
+
+.column3 .suggestion-card {
+    width: 380px;
+    height: 500px;
+    background-color: #fff;
+    color: #fff;
+}
+.column3 .advert-card {
+    width: 380px;
+    height: 250px;
+    background-color: #fff;
+    color: #fff;
+}
+.buttons-header button {
+    border: none;
+    background-color: #fff;
+    opacity: 80%;
+    cursor: pointer;
+}
+
+.buttons-header button img {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+.buttons-header {
+    display: flex;
+    justify-content: flex-end;
+    gap: 35px;
+    padding-right: 20px;
+    border-right: 1px solid rgb(159, 156, 156);
+}
+.upgrade-header {
+    display: flex;
+    justify-content: flex-start;
+    gap: 25px;
+    position: relative;
+    left: -160px;
+}
+.upgrade-header #upgrade-card {
+    width: 140px;
+    height: 30px;
+    color: brown;
+    position: relative;
+    top: 5px
+}
+.upgrade-header button {
+    border: none;
+    background-color: #fff;
+}
